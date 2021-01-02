@@ -41,10 +41,9 @@ public class CreditsActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
-        if(item.getItemId()==R.id.menuCredits);
+        if(item.getItemId()==R.id.menuMain);
         {
-            Intent si = new Intent(this, CreditsActivity.class);
-            startActivity(si);
+            finish();
         }
 
         return true;
