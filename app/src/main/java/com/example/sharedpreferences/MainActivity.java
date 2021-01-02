@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity
 
     /**
      * @param menu  - the menu
-     * @return      creates a menu with one option - cresits
+     * @return      - shows the main menu
      */
 
     @Override
